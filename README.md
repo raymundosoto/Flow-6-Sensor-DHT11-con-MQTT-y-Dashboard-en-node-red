@@ -4,7 +4,7 @@
 # Conexión del circuito
 ![imagen](https://user-images.githubusercontent.com/72757419/185459819-6a0dfc26-5eb3-4a7b-a27d-5a679695ee77.png)
 
-#Dashboard
+# Dashboard
 ![imagen](https://user-images.githubusercontent.com/72757419/185460134-e5e3584f-3494-479b-a4b3-e7d901b71d7d.png)
 
 # Node-red
