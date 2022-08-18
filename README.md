@@ -10,3 +10,6 @@
 # Node-red
 ![imagen](https://user-images.githubusercontent.com/72757419/185460354-8105f2c8-3464-43c0-9fd3-f2c66c3f5dfc.png)
 
+# Monitor serial y terminal de linux subscrita al tema de MQTT
+![imagen](https://user-images.githubusercontent.com/72757419/185462521-8b613da4-74fe-4c8a-8996-a8d1024112c6.png)
+
