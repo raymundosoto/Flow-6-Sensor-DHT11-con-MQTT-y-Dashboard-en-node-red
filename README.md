@@ -8,7 +8,7 @@
 ![imagen](https://user-images.githubusercontent.com/72757419/185460134-e5e3584f-3494-479b-a4b3-e7d901b71d7d.png)
 
 # Node-red
-![imagen](https://user-images.githubusercontent.com/72757419/185460354-8105f2c8-3464-43c0-9fd3-f2c66c3f5dfc.png)
+![imagen](https://user-images.githubusercontent.com/72757419/185671175-422cae5c-91fc-426e-92d1-960b323845f6.png)
 
 # Monitor serial y terminal de linux subscrita al tema de MQTT
 ![imagen](https://user-images.githubusercontent.com/72757419/185462521-8b613da4-74fe-4c8a-8996-a8d1024112c6.png)
