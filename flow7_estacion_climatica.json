@@ -13,8 +13,8 @@
         "z": "627f861b43206641",
         "name": "Enviador",
         "info": "",
-        "x": 1120,
-        "y": 720,
+        "x": 1180,
+        "y": 600,
         "wires": []
     },
     {
@@ -53,8 +53,8 @@
         "correl": "",
         "expiry": "",
         "broker": "3bc06062f3ea8f20",
-        "x": 1650,
-        "y": 640,
+        "x": 1910,
+        "y": 540,
         "wires": []
     },
     {
@@ -87,9 +87,7 @@
             [
                 "c628d8a791a250ce",
                 "948d7b9914e84e29",
-                "75eba23194f24f2f",
-                "dd647e1e3b338260",
-                "7c2c56742e43b77e"
+                "75eba23194f24f2f"
             ]
         ]
     },
@@ -104,11 +102,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1650,
-        "y": 300,
+        "x": 1670,
+        "y": 380,
         "wires": [
             [
                 "a75e632a5dfc15e4",
+                "dbd63c53ee85f873",
                 "07f62dba11bab3b5"
             ]
         ]
@@ -124,11 +123,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1620,
-        "y": 420,
+        "x": 1640,
+        "y": 460,
         "wires": [
             [
                 "bcfed17e171df293",
+                "4ebea03bc6c8b72a",
                 "843f4caf0218aeff"
             ]
         ]
@@ -166,7 +166,7 @@
         "z": "627f861b43206641",
         "name": "",
         "group": "f36e623a16f0c5e1",
-        "order": 2,
+        "order": 3,
         "width": 0,
         "height": 0,
         "gtype": "gage",
@@ -184,7 +184,7 @@
         "seg2": "66",
         "className": "",
         "x": 1890,
-        "y": 400,
+        "y": 420,
         "wires": []
     },
     {
@@ -198,8 +198,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1350,
-        "y": 640,
+        "x": 1590,
+        "y": 540,
         "wires": [
             [
                 "76d23ea5a3b6dd27"
@@ -220,8 +220,8 @@
         "correl": "",
         "expiry": "",
         "broker": "edd3004a.11da88",
-        "x": 1720,
-        "y": 780,
+        "x": 1780,
+        "y": 660,
         "wires": []
     },
     {
@@ -245,8 +245,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 1170,
-        "y": 800,
+        "x": 1230,
+        "y": 680,
         "wires": [
             [
                 "808f6a3bdd6e479f"
@@ -264,8 +264,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1390,
-        "y": 800,
+        "x": 1450,
+        "y": 680,
         "wires": [
             [
                 "a794ac0dcda67ee2",
@@ -285,8 +285,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1610,
-        "y": 900,
+        "x": 1710,
+        "y": 720,
         "wires": []
     },
     {
@@ -302,8 +302,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 1130,
-        "y": 1200,
+        "x": 1250,
+        "y": 880,
         "wires": [
             [
                 "4a3a237ac60a7c20"
@@ -318,15 +318,13 @@
         "property": "payload",
         "action": "obj",
         "pretty": false,
-        "x": 1370,
-        "y": 1200,
+        "x": 1490,
+        "y": 880,
         "wires": [
             [
-                "d6c5937e1c38cb7d",
-                "43e3551bccc56b33",
                 "914a510e279263b2",
-                "8354d35842fabd2e",
-                "07be125d16af4fdb"
+                "d6c5937e1c38cb7d",
+                "43e3551bccc56b33"
             ]
         ]
     },
@@ -341,10 +339,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1550,
-        "y": 1160,
+        "x": 1650,
+        "y": 860,
         "wires": [
-            []
+            [
+                "3d1f1695c6bde2df"
+            ]
         ]
     },
     {
@@ -358,10 +358,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1540,
-        "y": 1280,
+        "x": 1640,
+        "y": 920,
         "wires": [
-            []
+            [
+                "946b8b65bb1d7719"
+            ]
         ]
     },
     {
@@ -370,8 +372,8 @@
         "z": "627f861b43206641",
         "name": "General",
         "info": "",
-        "x": 1070,
-        "y": 1120,
+        "x": 1190,
+        "y": 800,
         "wires": []
     },
     {
@@ -399,7 +401,7 @@
         "authType": "",
         "senderr": false,
         "x": 1310,
-        "y": 1620,
+        "y": 1140,
         "wires": [
             [
                 "c1b021eb138c7eb8"
@@ -415,7 +417,7 @@
         "action": "obj",
         "pretty": false,
         "x": 1490,
-        "y": 1620,
+        "y": 1140,
         "wires": [
             [
                 "7aa59628a3019ec0",
@@ -446,7 +448,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 1110,
-        "y": 1620,
+        "y": 1140,
         "wires": [
             [
                 "0402496d0e6317fa",
@@ -466,7 +468,7 @@
         "finalize": "",
         "libs": [],
         "x": 1670,
-        "y": 1540,
+        "y": 1060,
         "wires": [
             [
                 "09cd875f84e41dc4"
@@ -485,7 +487,7 @@
         "finalize": "",
         "libs": [],
         "x": 1660,
-        "y": 1600,
+        "y": 1120,
         "wires": [
             [
                 "ff6f8861f40ddafd"
@@ -499,8 +501,8 @@
         "name": "",
         "group": "7219e191cf59b2a6",
         "order": 1,
-        "width": 4,
-        "height": 4,
+        "width": 0,
+        "height": 0,
         "gtype": "gage",
         "title": "Temperatura (ºC)",
         "label": "ºC",
@@ -516,7 +518,7 @@
         "seg2": "21",
         "className": "",
         "x": 1910,
-        "y": 1540,
+        "y": 1060,
         "wires": []
     },
     {
@@ -526,8 +528,8 @@
         "name": "",
         "group": "7219e191cf59b2a6",
         "order": 2,
-        "width": 4,
-        "height": 4,
+        "width": 0,
+        "height": 0,
         "gtype": "gage",
         "title": "Humedad (%)",
         "label": "%",
@@ -543,7 +545,7 @@
         "seg2": "",
         "className": "",
         "x": 1900,
-        "y": 1600,
+        "y": 1120,
         "wires": []
     },
     {
@@ -558,7 +560,7 @@
         "finalize": "",
         "libs": [],
         "x": 1650,
-        "y": 1660,
+        "y": 1180,
         "wires": [
             [
                 "61bab95f950c7595"
@@ -571,9 +573,9 @@
         "z": "627f861b43206641",
         "name": "",
         "group": "7219e191cf59b2a6",
-        "order": 4,
-        "width": 4,
-        "height": 4,
+        "order": 3,
+        "width": 0,
+        "height": 0,
         "gtype": "gage",
         "title": "Indíce UV",
         "label": "Index",
@@ -589,7 +591,7 @@
         "seg2": "7",
         "className": "",
         "x": 1880,
-        "y": 1660,
+        "y": 1180,
         "wires": []
     },
     {
@@ -599,7 +601,7 @@
         "name": "Solicitud API",
         "info": "Solicitud API",
         "x": 1090,
-        "y": 1560,
+        "y": 1080,
         "wires": []
     },
     {
@@ -617,7 +619,7 @@
         "authType": "",
         "senderr": false,
         "x": 1150,
-        "y": 1720,
+        "y": 1240,
         "wires": [
             [
                 "0d6142194ef0e0cb"
@@ -633,7 +635,7 @@
         "action": "obj",
         "pretty": false,
         "x": 1310,
-        "y": 1720,
+        "y": 1240,
         "wires": [
             [
                 "20a2e0b17bad7596"
@@ -652,7 +654,7 @@
         "finalize": "",
         "libs": [],
         "x": 1490,
-        "y": 1720,
+        "y": 1240,
         "wires": [
             [
                 "b6c4055dc7c59f75"
@@ -665,9 +667,9 @@
         "z": "627f861b43206641",
         "name": "",
         "group": "7219e191cf59b2a6",
-        "order": 3,
-        "width": 4,
-        "height": 4,
+        "order": 4,
+        "width": 0,
+        "height": 0,
         "gtype": "gage",
         "title": "Indice calidad del aire",
         "label": "Indice",
@@ -683,7 +685,7 @@
         "seg2": "4",
         "className": "",
         "x": 1900,
-        "y": 1720,
+        "y": 1240,
         "wires": []
     },
     {
@@ -701,7 +703,7 @@
         "expiry": "",
         "broker": "edd3004a.11da88",
         "x": 1760,
-        "y": 1880,
+        "y": 1400,
         "wires": []
     },
     {
@@ -726,7 +728,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 1130,
-        "y": 1940,
+        "y": 1460,
         "wires": [
             [
                 "bb8069117c2ba4e5"
@@ -745,7 +747,7 @@
         "finalize": "",
         "libs": [],
         "x": 1350,
-        "y": 1940,
+        "y": 1460,
         "wires": [
             [
                 "e718159bfd153752",
@@ -760,7 +762,7 @@
         "name": "Enviador",
         "info": "",
         "x": 1120,
-        "y": 1860,
+        "y": 1380,
         "wires": []
     },
     {
@@ -776,7 +778,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1770,
-        "y": 1980,
+        "y": 1500,
         "wires": []
     },
     {
@@ -792,8 +794,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 1080,
-        "y": 2080,
+        "x": 1300,
+        "y": 2240,
         "wires": [
             [
                 "d46ffc92b1cb6b52"
@@ -825,7 +827,7 @@
         "type": "function",
         "z": "627f861b43206641",
         "name": "Temperatura",
-        "func": "msg.topic = msg.payload.id;\nmsg.topic = \"Temperatura\";\nmsg.payload = msg.payload.temp;\nreturn msg;",
+        "func": "msg.topic = msg.payload.id;\nmsg.payload = msg.payload.temp;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -835,7 +837,7 @@
         "y": 2220,
         "wires": [
             [
-                "ab2a157de4610935"
+                "8b48878d47ea200d"
             ]
         ]
     },
@@ -844,7 +846,7 @@
         "type": "function",
         "z": "627f861b43206641",
         "name": "Humedad",
-        "func": "msg.topic = msg.payload.id;\nmsg.topic = \"Humedad\";\nmsg.payload = msg.payload.hum;\nreturn msg;",
+        "func": "msg.topic = msg.payload.id;\nmsg.payload = msg.payload.hum;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -854,7 +856,7 @@
         "y": 2280,
         "wires": [
             [
-                "ab2a157de4610935"
+                "8d1ecf713b5fe5ea"
             ]
         ]
     },
@@ -863,7 +865,7 @@
         "type": "function",
         "z": "627f861b43206641",
         "name": "UV",
-        "func": "msg.topic = msg.payload.id;\nmsg.topic = \"UV\";\nmsg.payload = msg.payload.uv;\nreturn msg;",
+        "func": "msg.topic = msg.payload.id;\nmsg.payload = msg.payload.uv;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -873,7 +875,7 @@
         "y": 2340,
         "wires": [
             [
-                "ab2a157de4610935"
+                "7811e4d939cd6462"
             ]
         ]
     },
@@ -882,7 +884,7 @@
         "type": "function",
         "z": "627f861b43206641",
         "name": "Calidad del aire",
-        "func": "msg.topic = msg.payload.id;\nmsg.topic = \"AQI\";\nmsg.payload = msg.payload.aqi;\nreturn msg;",
+        "func": "msg.topic = msg.payload.id;\nmsg.payload = msg.payload.aqi;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -892,7 +894,7 @@
         "y": 2400,
         "wires": [
             [
-                "ab2a157de4610935"
+                "6cf9353ca4b1baee"
             ]
         ]
     },
@@ -901,7 +903,7 @@
         "type": "debug",
         "z": "627f861b43206641",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -924,92 +926,64 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1590,
-        "y": 1340,
+        "x": 1630,
+        "y": 980,
         "wires": []
     },
     {
-        "id": "07f62dba11bab3b5",
-        "type": "ui_text",
-        "z": "627f861b43206641",
-        "group": "f36e623a16f0c5e1",
-        "order": 4,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Temperatura (ºC)",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "className": "",
-        "x": 1890,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "843f4caf0218aeff",
-        "type": "ui_text",
-        "z": "627f861b43206641",
-        "group": "f36e623a16f0c5e1",
-        "order": 5,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Humedad (%)",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "className": "",
-        "x": 1900,
-        "y": 440,
-        "wires": []
-    },
-    {
-        "id": "dd647e1e3b338260",
-        "type": "function",
-        "z": "627f861b43206641",
-        "name": "funcion-temperatura",
-        "func": "msg.Label=\"Temperatura\";\nmsg.topic = \"Temperatura\"\nmsg.payload = msg.payload.temp;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1620,
-        "y": 520,
-        "wires": [
-            [
-                "e52de53d66c2e9af"
-            ]
-        ]
-    },
-    {
-        "id": "7c2c56742e43b77e",
-        "type": "function",
-        "z": "627f861b43206641",
-        "name": "función-humedad",
-        "func": "msg.Label=\"Humedad\";\nmsg.topic = \"Humedad\"\nmsg.payload = msg.payload.hum;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1610,
-        "y": 580,
-        "wires": [
-            [
-                "e52de53d66c2e9af"
-            ]
-        ]
-    },
-    {
-        "id": "e52de53d66c2e9af",
+        "id": "dbd63c53ee85f873",
         "type": "ui_chart",
         "z": "627f861b43206641",
         "name": "",
-        "group": "f36e623a16f0c5e1",
-        "order": 3,
+        "group": "ec839f8b19c636ff",
+        "order": 1,
         "width": 0,
         "height": 0,
-        "label": "Datos instántaneos del sensor (Histórico)",
+        "label": "Temperatura obtenida con el sensor (Histórico)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "50",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1980,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4ebea03bc6c8b72a",
+        "type": "ui_chart",
+        "z": "627f861b43206641",
+        "name": "",
+        "group": "ec839f8b19c636ff",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Humedad obtenida con el sensor (Histórico)",
         "chartType": "line",
         "legend": "false",
         "xformat": "HH:mm:ss",
@@ -1038,68 +1012,30 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 2060,
-        "y": 580,
+        "x": 1970,
+        "y": 460,
         "wires": [
             []
         ]
     },
     {
-        "id": "8354d35842fabd2e",
-        "type": "function",
-        "z": "627f861b43206641",
-        "name": "funcion-temperatura",
-        "func": "msg.Label=\"Temperatura\";\nmsg.topic = \"Temperatura\"\nmsg.payload = msg.payload.temp;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1840,
-        "y": 1180,
-        "wires": [
-            [
-                "51d8aea12cffc2a7"
-            ]
-        ]
-    },
-    {
-        "id": "07be125d16af4fdb",
-        "type": "function",
-        "z": "627f861b43206641",
-        "name": "función-humedad",
-        "func": "msg.Label=\"Humedad\";\nmsg.topic = \"Humedad\"\nmsg.payload = msg.payload.hum;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1830,
-        "y": 1240,
-        "wires": [
-            [
-                "51d8aea12cffc2a7"
-            ]
-        ]
-    },
-    {
-        "id": "51d8aea12cffc2a7",
+        "id": "3d1f1695c6bde2df",
         "type": "ui_chart",
         "z": "627f861b43206641",
         "name": "",
         "group": "15537c64ccf1737c",
         "order": 1,
-        "width": "13",
-        "height": "9",
-        "label": "Histórico grupal sensores (Temperatura y humedad)",
+        "width": 0,
+        "height": 0,
+        "label": "Temperatura (ºC)",
         "chartType": "line",
-        "legend": "true",
+        "legend": "false",
         "xformat": "HH:mm:ss",
         "interpolate": "linear",
         "nodata": "",
         "dot": false,
         "ymin": "0",
-        "ymax": "100",
+        "ymax": "50",
         "removeOlder": 1,
         "removeOlderPoints": "",
         "removeOlderUnit": "3600",
@@ -1120,24 +1056,24 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 2270,
-        "y": 1200,
+        "x": 1870,
+        "y": 860,
         "wires": [
             []
         ]
     },
     {
-        "id": "ab2a157de4610935",
+        "id": "946b8b65bb1d7719",
         "type": "ui_chart",
         "z": "627f861b43206641",
         "name": "",
-        "group": "4e565a4486c2879f",
-        "order": 1,
-        "width": "13",
-        "height": "9",
-        "label": "Datos grupales por API",
+        "group": "15537c64ccf1737c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Humedad %",
         "chartType": "line",
-        "legend": "true",
+        "legend": "false",
         "xformat": "HH:mm:ss",
         "interpolate": "linear",
         "nodata": "",
@@ -1164,11 +1100,241 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 2090,
-        "y": 2120,
+        "x": 1850,
+        "y": 920,
         "wires": [
             []
         ]
+    },
+    {
+        "id": "8b48878d47ea200d",
+        "type": "ui_chart",
+        "z": "627f861b43206641",
+        "name": "",
+        "group": "4e565a4486c2879f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Temperatura (ºC)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "50",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 2010,
+        "y": 2200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8d1ecf713b5fe5ea",
+        "type": "ui_chart",
+        "z": "627f861b43206641",
+        "name": "",
+        "group": "4e565a4486c2879f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Humedad (%)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#8ae234",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 2020,
+        "y": 2260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7811e4d939cd6462",
+        "type": "ui_chart",
+        "z": "627f861b43206641",
+        "name": "",
+        "group": "4e565a4486c2879f",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Índice UV",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "10",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#fcaf3e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1980,
+        "y": 2320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6cf9353ca4b1baee",
+        "type": "ui_chart",
+        "z": "627f861b43206641",
+        "name": "",
+        "group": "4e565a4486c2879f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "label": "Índice calidad del aire",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "5",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#ef2929",
+            "#ff9896",
+            "#ad7fa8",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 2000,
+        "y": 2400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "07f62dba11bab3b5",
+        "type": "ui_text",
+        "z": "627f861b43206641",
+        "group": "f36e623a16f0c5e1",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Temperatura (ºC)",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1890,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "843f4caf0218aeff",
+        "type": "ui_text",
+        "z": "627f861b43206641",
+        "group": "f36e623a16f0c5e1",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Humedad (%)",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1880,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "29896dca32ddca88",
+        "type": "ui_spacer",
+        "z": "627f861b43206641",
+        "name": "spacer",
+        "group": "f36e623a16f0c5e1",
+        "order": 2,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "104af2b95531ee82",
+        "type": "ui_spacer",
+        "z": "627f861b43206641",
+        "name": "spacer",
+        "group": "f36e623a16f0c5e1",
+        "order": 4,
+        "width": 7,
+        "height": 1
     },
     {
         "id": "3bc06062f3ea8f20",
@@ -1245,13 +1411,24 @@
         "className": ""
     },
     {
+        "id": "ec839f8b19c636ff",
+        "type": "ui_group",
+        "name": "Datos Instantáneos obtenidos por sensor",
+        "tab": "70e518ef447ab7fd",
+        "order": 3,
+        "disp": true,
+        "width": "8",
+        "collapse": true,
+        "className": ""
+    },
+    {
         "id": "15537c64ccf1737c",
         "type": "ui_group",
         "name": "Datos Sensores grupal",
         "tab": "70e518ef447ab7fd",
         "order": 4,
         "disp": true,
-        "width": "13",
+        "width": "8",
         "collapse": true,
         "className": ""
     },
@@ -1262,8 +1439,8 @@
         "tab": "70e518ef447ab7fd",
         "order": 4,
         "disp": true,
-        "width": "13",
-        "collapse": true,
+        "width": "8",
+        "collapse": false,
         "className": ""
     },
     {
